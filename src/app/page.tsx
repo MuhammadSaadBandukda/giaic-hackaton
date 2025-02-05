@@ -11,9 +11,6 @@ import ShopexOffer from "@/app/components/ShopexOffer";
 import TopCategory from "@/app/components/TopCategory";
 import TrendingProducts from "@/app/components/TrendingProducts";
 
-
-import HeroSection from "@/components/HeroSection";
-
 export default function Home() {
   return (
     <div>
