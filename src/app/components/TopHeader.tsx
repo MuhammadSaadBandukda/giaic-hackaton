@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { CgShoppingCart } from "react-icons/cg";
 import { CiHeart, CiMail } from "react-icons/ci";
 import { FaPhoneVolume } from "react-icons/fa6";

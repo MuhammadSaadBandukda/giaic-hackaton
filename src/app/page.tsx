@@ -1,16 +1,32 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import NavBar from "@/components/NavBar";
-import TopHeader from "@/components/TopHeader";
-import Image from "next/image";
+import Brands from "@/app/components/Brands";
+import DiscountItem from "@/app/components/DiscountItem";
+import FeaturedProd from "@/app/components/FeaturedProd";
+import HeroSection from "@/app/components/HeroSection";
+import HomeBanner from "@/app/components/HomeBanner";
+import LatestBlog from "@/app/components/LatestBlog";
+import LatestProducts from "@/app/components/LatestProducts";
+import Rectangle from "@/app/components/Rectangle";
+import ShopexOffer from "@/app/components/ShopexOffer";
+import TopCategory from "@/app/components/TopCategory";
+import TrendingProducts from "@/app/components/TrendingProducts";
+
 
 export default function Home() {
   return (
-    <>
-    <TopHeader/>
-    <Header/>
+    <div>
     <HeroSection/>
-    <Footer/>
-    </>
+    <FeaturedProd/>
+    <LatestProducts/>
+    <ShopexOffer/>
+    <HomeBanner/>
+    <TrendingProducts/>
+    <DiscountItem/>
+    <TopCategory/>
+    <Rectangle/>
+    <Brands/>
+    <LatestBlog/>
+
+    
+    </div>
+
 );}

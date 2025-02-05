@@ -3,7 +3,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 export default function Header(){
     return(
-        <div className="header h-9  items-center flex justify-evenly">
+        <div className="header h-9 items-center flex justify-evenly">
             <div className="logo">
                 <h1 className="font-sans text-lg font-bold">Hekto</h1>
             </div>
@@ -24,8 +24,7 @@ export default function Header(){
                 </ul>
             </div>
             <div className="search flex items-center bg-white w-25 h-5 border border-gray-2000 border-solid">
-                <input type="text"  className="bg-transparent "/>
-
+                <input type="text" placeholder="search for something..." className="bg-transparent text-[13px]"/> 
                 <CiSearch className="text-sm bg-pink-600 w-6 h-5 text-white"/>
             </div>
         </div>
